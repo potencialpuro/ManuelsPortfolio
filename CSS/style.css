@@ -1,0 +1,65 @@
+
+header {
+	text-align: center;
+	background: url('http://i.imgur.com/OVidnoY.jpg');
+	background-size: cover;
+	background-position: bottom;
+	color: white;
+	font-family: helvetica;
+}
+a {
+	color: white;
+}
+h1 {
+	font-size: 70px;
+	font-family: 'Bevan', cursive;
+}
+h2 {
+	font-size: 24px;
+}
+img {
+	margin: 40px 0px 0px 0px;
+}
+ul {
+	padding: 10px;
+	background: rgba(57, 74, 89, 0.75);
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+body {
+	font-family: helvetica;
+}
+article {
+	max-width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 36px;
+	}
+	li {
+		display: block;
+		padding: 5px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	}
+input {
+      border: 1;
+      padding: 10px;
+      font-size: 18px;
+    }
+input[type="submit"] {
+    background: #7dbeca;
+    color: white;
+    text-align: center;
+    }
+h5 {
+	font-size: 24px;
+	font-family: 'Bevan', cursive;
+}
+}
